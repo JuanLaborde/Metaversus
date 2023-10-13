@@ -5,7 +5,7 @@ exports.id = 820;
 exports.ids = [820];
 exports.modules = {
 
-/***/ 2648:
+/***/ 648:
 /***/ ((__unused_webpack_module, exports) => {
 
 var __webpack_unused_export__;
@@ -23,7 +23,7 @@ function _interopRequireDefault(obj) {
 
 /***/ }),
 
-/***/ 8863:
+/***/ 345:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -31,9 +31,9 @@ Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
 exports["default"] = void 0;
-var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
-var _react = _interop_require_default(__webpack_require__(8038));
-var _head = _interop_require_default(__webpack_require__(4957));
+var _interop_require_default = (__webpack_require__(648)/* ["default"] */ .Z);
+var _react = _interop_require_default(__webpack_require__(689));
+var _head = _interop_require_default(__webpack_require__(957));
 const statusCodes = {
     400: "Bad Request",
     404: "This page could not be found",
@@ -121,17 +121,17 @@ exports["default"] = Error; //# sourceMappingURL=_error.js.map
 
 /***/ }),
 
-/***/ 8038:
-/***/ ((module) => {
-
-module.exports = require("next/dist/compiled/react");
-
-/***/ }),
-
-/***/ 4957:
+/***/ 957:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/head.js");
+
+/***/ }),
+
+/***/ 689:
+/***/ ((module) => {
+
+module.exports = require("react");
 
 /***/ })
 
@@ -142,7 +142,7 @@ module.exports = require("next/dist/shared/lib/head.js");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(8863));
+var __webpack_exports__ = (__webpack_exec__(345));
 module.exports = __webpack_exports__;
 
 })();
