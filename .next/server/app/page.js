@@ -114,14 +114,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1072:
+/***/ 6613:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3261));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7774));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7959));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1505));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3002));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1505));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8857));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1902));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8922));
@@ -796,7 +796,6 @@ const Navbar = ()=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0
         variants: _utils_motion__WEBPACK_IMPORTED_MODULE_2__/* .navVariants */ .yB,
         initial: "hidden",
         whileInView: "show",
-        navbar: true,
         className: `${_styles__WEBPACK_IMPORTED_MODULE_1__/* ["default"].xPaddings */ .Z.xPaddings} py-8 relative`,
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
